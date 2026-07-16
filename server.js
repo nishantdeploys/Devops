@@ -4,6 +4,7 @@ const app = express();
 const port = process.env.PORT || 3000;
 
 app.get("/", (_req, res) => {
+  res.json({ message: "Kya be lomde kya test krr rha chl rha h sbb soja ghr jake"});
   res.json({ message: "ci-cd pipeline is working fine " });
 });
 
